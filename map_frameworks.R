@@ -96,8 +96,8 @@ clean_fdes_component <- function(sheet_name, file_path) {
         subtopic_name = current_subtopic_name,
         statistic_num = stat_num,
         statistic_name = stat_name,
-        category_of_measurement = row$col_2,
-        aggregations = row$col_3
+        category_of_measurement = row$col_2#,
+        #aggregations = row$col_3
       )
     } else if (row$is_subtopic && (!is.na(row$col_2) || !is.na(row$col_3))) {
       # This is a subtopic that IS the statistic (no numbered sub-items)
@@ -113,8 +113,8 @@ clean_fdes_component <- function(sheet_name, file_path) {
         subtopic_name = current_subtopic_name,
         statistic_num = NA_character_,
         statistic_name = current_subtopic_name,  # Use subtopic name as statistic
-        category_of_measurement = row$col_2,
-        aggregations = row$col_3
+        category_of_measurement = row$col_2#,
+        #aggregations = row$col_3
       )
     }
   }
@@ -131,8 +131,8 @@ fdes <- map(component_sheets, ~clean_fdes_component(.x, essat_path)) %>%
   # Create a unique indicator ID based on hierarchy
   mutate(
     indicator_id = paste(
-      component,
-      subcomponent,
+      #component,
+      #subcomponent,
       topic,
       subtopic,
       statistic_num,
@@ -143,6 +143,8 @@ fdes <- map(component_sheets, ~clean_fdes_component(.x, essat_path)) %>%
 
 # Preview the cleaned data
 glimpse(fdes)
+
+#write_csv(fdes, here("Frameworks/fdes_flat.csv"))
 
 # ------------------------------------------------------------------------------
 # Global Set: Read from CISAT (to be cleaned later)

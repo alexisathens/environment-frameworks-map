@@ -1,0 +1,460 @@
+indicator_id,component,component_name,subcomponent,subcomponent_name,topic,topic_name,subtopic,subtopic_name,statistic_num,statistic_name,category_of_measurement
+1.1.1.a.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",a,Temperature,1,Monthly average,Degrees
+1.1.1.a.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",a,Temperature,2,Minimum monthly average,Degrees
+1.1.1.a.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",a,Temperature,3,Maximum monthly average,Degrees
+1.1.1.b.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",b,Precipitation (also in 2.6.1.a),1,Annual average,Height
+1.1.1.b.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",b,Precipitation (also in 2.6.1.a),2,Long-term annual average,Height
+1.1.1.b.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",b,Precipitation (also in 2.6.1.a),3,Monthly average,Height
+1.1.1.b.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",b,Precipitation (also in 2.6.1.a),4,Minimum monthly value,Height
+1.1.1.b.5,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",b,Precipitation (also in 2.6.1.a),5,Maximum monthly value,Height
+1.1.1.c.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",c,Relative humidity,1,Minimum monthly value,Number
+1.1.1.c.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",c,Relative humidity,2,Maximum monthly value,Number
+1.1.1.d.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",d,Pressure,1,Minimum monthly value,Pressure unit
+1.1.1.d.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",d,Pressure,2,Maximum monthly value,Pressure unit
+1.1.1.e.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",e,Wind speed,1,Minimum monthly value,Speed
+1.1.1.e.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",e,Wind speed,2,Maximum monthly value,Speed
+1.1.1.f.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",f,Solar radiation,1,Average daily value,"Area, Energy unit"
+1.1.1.f.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",f,Solar radiation,2,Average monthly value,"Area, Energy unit"
+1.1.1.f.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",f,Solar radiation,3,Number of hours of sunshine,Number
+1.1.1.g.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",g,UV radiation,1,Maximum daily value,"Area, Energy unit"
+1.1.1.g.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",g,UV radiation,2,Average daily value,"Area, Energy unit"
+1.1.1.g.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",g,UV radiation,3,Maximum monthly value,"Area, Energy unit"
+1.1.1.g.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",g,UV radiation,4,Average monthly value,"Area, Energy unit"
+1.1.1.h.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",h,"Occurrence of El Niño/La Niña events, when relevant",1,Occurrence,Number
+1.1.1.h.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.1,"Atmosphere, climate and weather",h,"Occurrence of El Niño/La Niña events, when relevant",2,Time period,Time period
+1.1.2.a.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,a,Lakes,1,Surface area,Area
+1.1.2.a.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,a,Lakes,2,Maximum depth,Depth
+1.1.2.b.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,b,Rivers and streams,1,Length,Length
+1.1.2.c.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,c,Artificial reservoirs,1,Surface area,Area
+1.1.2.c.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,c,Artificial reservoirs,2,Maximum depth,Depth
+1.1.2.d.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,d,Watersheds,1,Description of main watersheds,"Area, Description"
+1.1.2.e.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,e,Seas,1,Coastal waters,Area
+1.1.2.e.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,e,Seas,2,Territorial sea,Area
+1.1.2.e.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,e,Seas,3,Exclusive Economic Zone (EEZ),Area
+1.1.2.e.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,e,Seas,4,Sea level,Depth
+1.1.2.e.5,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,e,Seas,5,Area of sea ice,Area
+1.1.2.f,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,f,Aquifers,NA,Aquifers,"Depth, Description"
+1.1.2.g,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.2,Hydrographical characteristics,g,Glaciers,NA,Glaciers,Area
+1.1.3.a.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",1,Length of border,Length
+1.1.3.a.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",2,Area of country or region,"Area, Location"
+1.1.3.a.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",3,Number of islands,Number
+1.1.3.a.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",4,Area of islands,Area
+1.1.3.a.5,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",5,Main geomorphological characteristics of islands,Description
+1.1.3.a.6,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",6,Spatial distribution of land relief,"Description, Location"
+1.1.3.a.7,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",7,"Characteristics of landforms (e.g., plains, hills, plateaus, dunes, volcanoes, mountains, sea mounts)","Description, Area, Height"
+1.1.3.a.8,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",8,Area by rock types,Area
+1.1.3.a.9,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,a,"Geological, geographical and geomorphological conditions of terrestrial areas and islands",9,Length of fault lines,Length
+1.1.3.b,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,b,Coastal waters (including area of coral reefs and mangroves),NA,Coastal waters (including area of coral reefs and mangroves),"Area, Description"
+1.1.3.c,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,c,Length of marine coastline,NA,Length of marine coastline,Length
+1.1.3.d,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.3,Geological and geographical information,d,Coastal area,NA,Coastal area,Area
+1.1.4.a.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,a,Soil characterization,1,Area by soil types,Area
+1.1.4.b.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,1,Area affected by soil erosion,Area
+1.1.4.b.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,2,Area affected by desertification,Area
+1.1.4.b.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,3,Area affected by salinization,Area
+1.1.4.b.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,4,Area affected by waterlogging,Area
+1.1.4.b.5,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,5,Area affected by acidification,Area
+1.1.4.b.6,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,b,Soil degradation,6,Area affected by compaction,Area
+1.1.4.c.1,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",1,Nitrogen (N),Concentration
+1.1.4.c.2,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",2,Phosphorous (P),Concentration
+1.1.4.c.3,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",3,Calcium (Ca),Concentration
+1.1.4.c.4,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",4,Magnesium (Mg),Concentration
+1.1.4.c.5,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",5,Potassium (K),Concentration
+1.1.4.c.6,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",6,Zinc (Zn),Concentration
+1.1.4.c.7,1,Environmental Conditions and Quality,1.1,Physical Conditions,1.1.4,Soil characteristics,c,"Nutrient content of soil, measured in levels of:",7,Other,Concentration
+1.2.1.a.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.1,Land cover,a,Area under land cover categories,1,Area,Area
+1.2.2.a.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,a,"General ecosystem characteristics, extent and pattern",1,Area of ecosystems,Area
+1.2.2.a.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,a,"General ecosystem characteristics, extent and pattern",2,Proximity of ecosystem to urban areas and cropland,Distance
+1.2.2.b.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,b,Ecosystems' chemical and physical characteristics,1,Nutrients,Concentration
+1.2.2.b.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,b,Ecosystems' chemical and physical characteristics,2,Carbon,Concentration
+1.2.2.b.3,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,b,Ecosystems' chemical and physical characteristics,3,Pollutants,Concentration
+1.2.2.c.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,c,Biodiversity,1,Known flora and fauna species,Number
+1.2.2.c.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,c,Biodiversity,2,Endemic flora and fauna species,Number
+1.2.2.c.3,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,c,Biodiversity,3,Invasive alien flora and fauna species,Number
+1.2.2.c.4,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,c,Biodiversity,4,Species population,Number
+1.2.2.c.5,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,c,Biodiversity,5,Habitat fragmentation,"Area, Description,  Location,  Number"
+1.2.2.d.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,d,Protected areas and species,1,Protected terrestrial and marine area (also in 1.2.3.a),"Number, Area"
+1.2.2.d.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.2,Ecosystems and biodiversity,d,Protected areas and species,2,Protected flora and fauna species,Number
+1.2.3.a.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,a,Forest area,1,Total,Area
+1.2.3.a.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,a,Forest area,2,Natural,Area
+1.2.3.a.3,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,a,Forest area,3,Planted,Area
+1.2.3.a.4,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,a,Forest area,4,Protected forest area (also in 1.2.2.d),Area
+1.2.3.a.5,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,a,Forest area,5,Forest area affected by fire,Area
+1.2.3.b.1,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,b,Forest biomass,1,Total,Volume
+1.2.3.b.2,1,Environmental Conditions and Quality,1.2,"Land Cover, Ecosystems and Biodiversity",1.2.3,Forests,b,Forest biomass,2,Carbon storage in living forest biomass,Mass
+1.3.1.a.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,1,Concentration level of particulate matter (PM10),Concentration
+1.3.1.a.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,2,Concentration level of particulate matter (PM2.5),Concentration
+1.3.1.a.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,3,Concentration level of tropospheric ozone (O3),Concentration
+1.3.1.a.4,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,4,Concentration level of carbon monoxide (CO),Concentration
+1.3.1.a.5,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,5,Concentration level of sulphur dioxide (SO2),Concentration
+1.3.1.a.6,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,6,Concentration levels of nitrogen oxides (NOX),Concentration
+1.3.1.a.7,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,7,Concentration levels of heavy metals,Concentration
+1.3.1.a.8,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,8,Concentration levels of non-methane volatile organic compounds (NMVOCs),Concentration
+1.3.1.a.9,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,9,Concentration levels of dioxins,Concentration
+1.3.1.a.10,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,10,Concentration levels of furans,Concentration
+1.3.1.a.11,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,11,Concentration levels of other pollutants,Concentration
+1.3.1.a.12,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,a,Local air quality,12,Number of days when maximum allowable levels were exceeded per year,Number
+1.3.1.b.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,b,Global atmospheric concentrations of greenhouse gases,1,Global atmospheric concentration levels of carbon dioxide (CO2),Concentration
+1.3.1.b.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.1,Air quality,b,Global atmospheric concentrations of greenhouse gases,2,Global atmospheric concentration levels of methane (CH4),Concentration
+1.3.2.a.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,a,Nutrients and chlorophyll,1,Concentration level of nitrogen,Concentration
+1.3.2.a.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,a,Nutrients and chlorophyll,2,Concentration level of phosphorous,Concentration
+1.3.2.a.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,a,Nutrients and chlorophyll,3,Concentration level of chlorophyll A,Concentration
+1.3.2.b.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,b,Organic matter,1,Biochemical oxygen demand (BOD),Concentration
+1.3.2.b.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,b,Organic matter,2,Chemical oxygen demand (COD),Concentration
+1.3.2.c.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,c,Pathogens,1,Concentration levels of faecal coliforms,Concentration
+1.3.2.d.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,d,"Metals (e.g., mercury, lead, nickel, arsenic, cadmium)",1,Concentrations levels in sediment and freshwater,Concentration
+1.3.2.d.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,d,"Metals (e.g., mercury, lead, nickel, arsenic, cadmium)",2,Concentration levels in freshwater organisms,Concentration
+1.3.2.e.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,e,"Organic contaminants (e.g., PCBs, DDT, pesticides, furans, dioxins, phenols, radioactive waste)",1,Concentration levels in sediment and freshwater,Concentration
+1.3.2.e.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,e,"Organic contaminants (e.g., PCBs, DDT, pesticides, furans, dioxins, phenols, radioactive waste)",2,Concentration levels in freshwater organisms,Concentration
+1.3.2.f.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,f,Physical and chemical characteristics,1,pH/Acidity/Alkalinity,Level
+1.3.2.f.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,f,Physical and chemical characteristics,2,Temperature,"Degrees
+"
+1.3.2.f.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,f,Physical and chemical characteristics,3,Total suspended solids (TSS),Concentration
+1.3.2.f.4,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,f,Physical and chemical characteristics,4,Salinity,Concentration
+1.3.2.f.5,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,f,Physical and chemical characteristics,5,Dissolved oxygen (DO),Concentration
+1.3.2.g.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.2,Freshwater quality,g,Plastic waste and other freshwater debris,1,Amount of plastic waste and other debris,"Area, Mass"
+1.3.3.a.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,a,Nutrients and chlorophyll,1,Concentration level of nitrogen,Concentration
+1.3.3.a.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,a,Nutrients and chlorophyll,2,Concentration level of phosphorous,Concentration
+1.3.3.a.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,a,Nutrients and chlorophyll,3,Concentration level of chlorophyll A,Concentration
+1.3.3.b.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,b,Organic matter,1,Biochemical oxygen demand (BOD),Concentration
+1.3.3.b.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,b,Organic matter,2,Chemical oxygen demand (COD),Concentration
+1.3.3.c.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,c,Pathogens,1,Concentration levels of faecal coliforms in recreational marine waters,Concentration
+1.3.3.d.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,d,"Metals (e.g., mercury, lead, nickel, arsenic, cadmium)",1,Concentration levels in sediment and marine water,Concentration
+1.3.3.d.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,d,"Metals (e.g., mercury, lead, nickel, arsenic, cadmium)",2,Concentration levels in marine organisms,Concentration
+1.3.3.e.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,e,"Organic contaminants (e.g., PCBs, DDT, pesticides, furans, dioxins, phenols, radioactive waste)",1,Concentration levels in sediment and marine water,Concentration
+1.3.3.e.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,e,"Organic contaminants (e.g., PCBs, DDT, pesticides, furans, dioxins, phenols, radioactive waste)",2,Concentration levels in marine organisms,Concentration
+1.3.3.f.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,1,pH/Acidity/Alkalinity,Level
+1.3.3.f.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,2,Temperature,Degrees
+1.3.3.f.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,3,Total suspended solids (TSS),Concentration
+1.3.3.f.4,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,4,Salinity,Concentration
+1.3.3.f.5,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,5,Dissolved oxygen (DO),Concentration
+1.3.3.f.6,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,f,Physical and chemical characteristics,6,Density,Density
+1.3.3.g.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,g,Coral bleaching,1,Area affected by coral bleaching,Area
+1.3.3.h.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,h,Plastic waste and other freshwater debris,1,Amount of plastic waste and other debris in marine waters,"Area, Mass"
+1.3.3.i.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,i,Red tide,1,Occurrence,Number
+1.3.3.i.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,i,Red tide,2,Impacted area,Area
+1.3.3.i.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,i,Red tide,3,Duration,Duration
+1.3.3.j.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,j,Oil pollution,1,Area of oil slicks,Area
+1.3.3.j.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.3,Marine water quality,j,Oil pollution,2,Amount of tar balls,"Area, Diameter, Number"
+1.3.4.a.1,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.4,Soil pollution,a,Sites affected by pollution,1,Contaminated sites,"Area, Number"
+1.3.4.a.2,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.4,Soil pollution,a,Sites affected by pollution,2,Potentially contaminated sites,"Area, Number"
+1.3.4.a.3,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.4,Soil pollution,a,Sites affected by pollution,3,Remediated sites,"Area, Number"
+1.3.4.a.4,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.4,Soil pollution,a,Sites affected by pollution,4,Other sites,"Area, Number"
+1.3.5.a,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.5,Noise,a,Noise levels from specific sources,NA,Noise levels from specific sources,Level
+1.3.5.b,1,Environmental Conditions and Quality,1.3,Environmental Quality,1.3.5,Noise,b,Noise levels in specific locations,NA,Noise levels in specific locations,Level
+2.1.1.a.1,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,1,Stocks of commercially recoverable resources,"Mass, Volume"
+2.1.1.a.2,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,2,New discoveries,"Mass, Volume"
+2.1.1.a.3,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,3,Upward reappraisals,"Mass, Volume"
+2.1.1.a.4,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,4,Upward reclassifications,"Mass, Volume"
+2.1.1.a.5,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,5,Extraction,"Mass, Volume"
+2.1.1.a.6,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,6,Catastrophic losses,"Mass, Volume"
+2.1.1.a.7,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,7,Downward reappraisals,"Mass, Volume"
+2.1.1.a.8,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,8,Downward reclassifications,"Mass, Volume"
+2.1.1.a.9,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,9,Stocks of potentially commercially recoverable resources,"Mass, Volume"
+2.1.1.a.10,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.1,Stocks and changes of mineral resources,a,Mineral resources,10,Stocks of non-commercial and other known resources,"Mass, Volume"
+2.1.2.a,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.2,Production and trade of minerals,a,Production of minerals,NA,Production of minerals,"Mass, Volume"
+2.1.2.b,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.2,Production and trade of minerals,b,Imports of minerals,NA,Imports of minerals,"Currency, Mass, Volume"
+2.1.2.c,2,Environmental Resources and their Use,2.1,Mineral Resources,2.1.2,Production and trade of minerals,c,Exports of minerals,NA,Exports of minerals,"Currency, Mass, Volume"
+2.2.1.a.1,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,1,Stocks of commercially recoverable resources,"Mass, Volume"
+2.2.1.a.2,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,2,New discoveries,"Mass, Volume"
+2.2.1.a.3,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,3,Upward reappraisals,"Mass, Volume"
+2.2.1.a.4,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,4,Upward reclassifications,"Mass, Volume"
+2.2.1.a.5,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,5,Extraction,"Mass, Volume"
+2.2.1.a.6,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,6,Catastrophic losses,"Mass, Volume"
+2.2.1.a.7,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,7,Downward reappraisals,"Mass, Volume"
+2.2.1.a.8,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,8,Downward reclassifications,"Mass, Volume"
+2.2.1.a.9,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,9,Stocks of potentially commercially recoverable resources,"Mass, Volume"
+2.2.1.a.10,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.1,Stocks and changes of  energy resources,a,Energy resources,10,Stocks of non-commercial and other known resources,"Mass, Volume"
+2.2.2.a.1,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,1,Total production,"Energy unit, Mass, Volume"
+2.2.2.a.2,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,2,Production from non-renewable sources,"Energy unit, Mass, Volume"
+2.2.2.a.3,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,3,Production from renewable sources,"Energy unit, Mass, Volume"
+2.2.2.a.4,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,4,Primary energy production,"Energy unit, Mass, Volume"
+2.2.2.a.5,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,5,Imports of energy,"Energy unit, Mass, Volume"
+2.2.2.a.6,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,6,Exports of energy,"Energy unit, Mass, Volume"
+2.2.2.a.7,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",a,Production of energy,7,Secondary energy production,"Energy unit, Mass, Volume"
+2.2.2.b,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",b,Total energy supply,NA,Total energy supply,"Energy unit, Mass, Volume"
+2.2.2.c,2,Environmental Resources and their Use,2.2,Energy Resources,2.2.2,"Production, trade and consumption of energy",c,Final consumption of energy,NA,Final consumption of energy,"Energy unit, Mass, Volume"
+2.3.1.a,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,a,Area under land use categories,NA,Area under land use categories,Area
+2.3.1.b.1,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,b,Other aspects of land use,1,Area of land under organic farming,Area
+2.3.1.b.2,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,b,Other aspects of land use,2,Area of land under irrigation,Area
+2.3.1.b.3,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,b,Other aspects of land use,3,Area of land under sustainable forest management,Area
+2.3.1.b.4,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,b,Other aspects of land use,4,Area of land under agroforestry,Area
+2.3.1.c,2,Environmental Resources and their Use,2.3,Land,2.3.1,Land use,c,Land ownership,NA,Land ownership,Area
+2.3.2.a.1,2,Environmental Resources and their Use,2.3,Land,2.3.2,Use of forest land,a,Use of forest land,1,Area deforested,Area
+2.3.2.a.2,2,Environmental Resources and their Use,2.3,Land,2.3.2,Use of forest land,a,Use of forest land,2,Area reforested,Area
+2.3.2.a.3,2,Environmental Resources and their Use,2.3,Land,2.3.2,Use of forest land,a,Use of forest land,3,Area afforested,Area
+2.3.2.a.4,2,Environmental Resources and their Use,2.3,Land,2.3.2,Use of forest land,a,Use of forest land,4,Natural growth,Area
+2.3.2.b,2,Environmental Resources and their Use,2.3,Land,2.3.2,Use of forest land,b,Forest area by primary designated function,NA,Forest area by primary designated function,Area
+2.5.1.a.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,1,Stocks of timber resources,Volume
+2.5.1.a.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,2,Natural growth,Volume
+2.5.1.a.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,3,Fellings,Volume
+2.5.1.a.4,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,4,Removals,Volume
+2.5.1.a.5,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,5,Felling residues,Volume
+2.5.1.a.6,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,6,Natural losses,Volume
+2.5.1.a.7,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,7,Catastrophic losses,Volume
+2.5.1.a.8,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,a,Timber resources,8,Reclassifications,Volume
+2.5.1.b.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,b,Amount used of:,1,Fertilizers (also in 3.4.1.a),"Area, Mass, Volume"
+2.5.1.b.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,b,Amount used of:,2,Pesticides (also in 3.4.1.b),"Area, Mass, Volume"
+2.5.1.c,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,c,Forest production,NA,Forest production,Volume
+2.5.1.d,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,d,Fuelwood production,NA,Fuelwood production,Volume
+2.5.1.e,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,e,Imports of forest products,NA,Imports of forest products,"Currency, Mass, Volume"
+2.5.1.f,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.1,Timber resources,f,Exports of forest products,NA,Exports of forest products,"Currency, Mass, Volume"
+2.5.2.a,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,a,Fish capture production,NA,Fish capture production,Mass
+2.5.2.b,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,b,Aquaculture production,NA,Aquaculture production,Mass
+2.5.2.c,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,c,Imports of fish and fishery products,NA,Imports of fish and fishery products,"Currency, Mass, Volume"
+2.5.2.d,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,d,Exports of fish and fishery products,NA,Exports of fish and fishery products,"Currency, Mass, Volume"
+2.5.2.e.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,e,Amount used of:,1,Pellets (also in 3.4.1.c),"Mass, Volume"
+2.5.2.e.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,e,Amount used of:,2,Hormones (also in 3.4.1.d),"Mass, Volume"
+2.5.2.e.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,e,Amount used of:,3,Colourants (also in 3.4.1.e),"Mass, Volume"
+2.5.2.e.4,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,e,Amount used of:,4,Antibiotics (also in 3.4.1.f),"Mass, Volume"
+2.5.2.e.5,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,e,Amount used of:,5,Fungicides,"Mass, Volume"
+2.5.2.f.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,f,Aquatic resources,1,Stocks of aquatic resources,Mass
+2.5.2.f.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,f,Aquatic resources,2,Additions to aquatic resources,Mass
+2.5.2.f.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.2,Aquatic resources,f,Aquatic resources,3,Reductions in aquatic resources,Mass
+2.5.3.a.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,a,Main annual and perennial crops,1,Area planted,Area
+2.5.3.a.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,a,Main annual and perennial crops,2,Area harvested,Area
+2.5.3.a.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,a,Main annual and perennial crops,3,Amount produced,Mass
+2.5.3.a.4,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,a,Main annual and perennial crops,4,Amount of organic production,Mass
+2.5.3.a.5,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,a,Main annual and perennial crops,5,Amount of genetically modified crops produced,Mass
+2.5.3.b.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,b,Amount used of:,1,"Natural fertilizers (e.g., manure, compost, lime) (also in 3.4.1.a)","Area, Mass, Volume"
+2.5.3.b.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,b,Amount used of:,2,Chemical fertilizers (also in 3.4.1.a),"Area, Mass, Volume"
+2.5.3.b.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,b,Amount used of:,3,Pesticides (also in 3.4.1.b),"Area, Mass, Volume"
+2.5.3.b.4,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,b,Amount used of:,4,Genetically modified seeds,Mass
+2.5.3.c.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,c,Monoculture/ resource-intensive farming systems,1,Area being used for production,Area
+2.5.3.c.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,c,Monoculture/ resource-intensive farming systems,2,Amount produced,Mass
+2.5.3.c.3,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,c,Monoculture/ resource-intensive farming systems,3,Amount of genetically modified crops produced,Mass
+2.5.3.d,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,d,Imports of crops,NA,Imports of crops,"Currency, Mass"
+2.5.3.e,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.3,Crops,e,Exports of crops,NA,Exports of crops,"Currency, Mass"
+2.5.4.a.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,a,Livestock,1,Number of live animals,Number
+2.5.4.a.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,a,Livestock,2,Number of animals slaughtered,Number
+2.5.4.b.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,b,Amount used of:,1,Antibiotics (also in 3.4.1.f),Mass
+2.5.4.b.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,b,Amount used of:,2,Hormones (also in 3.4.1.d),Mass
+2.5.4.c,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,c,Imports of livestock,NA,Imports of livestock,"Currency, Number"
+2.5.4.d,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.4,Livestock,d,Exports of livestock,NA,Exports of livestock,"Currency, Number"
+2.5.5.a.1,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,a,Permits for regulated hunting and trapping of wild animals,1,Number of permits issued per year,Number
+2.5.5.a.2,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,a,Permits for regulated hunting and trapping of wild animals,2,Number of animal kills allowed by permits,Number
+2.5.5.b,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,b,Imports of endangered species,NA,Imports of endangered species,"Currency, Number"
+2.5.5.c,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,c,Exports of endangered species,NA,Exports of endangered species,"Currency, Number"
+2.5.5.d,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,d,Reported wild animals killed or trapped for food or sale,NA,Reported wild animals killed or trapped for food or sale,Number
+2.5.5.e,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,e,Trade in wildlife and captive-bred species,NA,Trade in wildlife and captive-bred species,"Description, Mass, Number"
+2.5.5.f,2,Environmental Resources and their Use,2.5,Biological Resources,2.5.5,Other non-cultivated biological resources,f,Non-wood forest products and other plants,NA,Non-wood forest products and other plants,"Mass, Volume"
+2.6.1.a.1,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,a,Inflow of water to inland water resources,1,Precipitation (also in 1.1.1.b),Volume
+2.6.1.a.2,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,a,Inflow of water to inland water resources,2,Inflow from neighbouring territories,Volume
+2.6.1.a.3,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,a,Inflow of water to inland water resources,3,Inflow subject to treaties,Volume
+2.6.1.b.1,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,b,Outflow of water from inland water resources,1,Evapotranspiration,Volume
+2.6.1.b.2,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,b,Outflow of water from inland water resources,2,Outflow to neighbouring territories,Volume
+2.6.1.b.3,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,b,Outflow of water from inland water resources,3,Outflow subject to treaties,Volume
+2.6.1.b.4,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,b,Outflow of water from inland water resources,4,Outflow to the sea,Volume
+2.6.1.c.1,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,1,Surface water stocks in artificial reservoirs,Volume
+2.6.1.c.2,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,2,Surface water stocks in lakes,Volume
+2.6.1.c.3,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,3,Surface water stocks in rivers and streams,Volume
+2.6.1.c.4,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,4,Surface water stocks in wetlands,Volume
+2.6.1.c.5,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,5,"Surface water stocks in snow, ice and glaciers",Volume
+2.6.1.c.6,2,Environmental Resources and their Use,2.6,Water Resources,2.6.1,Water resources,c,Inland water stocks,6,Groundwater stocks,Volume
+2.6.2.a,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",a,Total water abstraction,NA,Total water abstraction,Volume
+2.6.2.b,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",b,Water abstraction from surface water,NA,Water abstraction from surface water,Volume
+2.6.2.c.1,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",c,Water abstraction from groundwater,1,From renewable groundwater resources,Volume
+2.6.2.c.2,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",c,Water abstraction from groundwater,2,From non-renewable groundwater resources,Volume
+2.6.2.d,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",d,Water abstracted for own use,NA,Water abstracted for own use,Volume
+2.6.2.e,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",e,Water abstracted for distribution,NA,Water abstracted for distribution,Volume
+2.6.2.f,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",f,Desalinated water,NA,Desalinated water,Volume
+2.6.2.g,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",g,Reused water,NA,Reused water,Volume
+2.6.2.h,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",h,Water use,NA,Water use,Volume
+2.6.2.i,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",i,Rainwater collection,NA,Rainwater collection,Volume
+2.6.2.j,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",j,Water abstraction from the sea,NA,Water abstraction from the sea,Volume
+2.6.2.k,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",k,Losses during transport,NA,Losses during transport,Volume
+2.6.2.l,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",l,Exports of water,NA,Exports of water,Volume
+2.6.2.m,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",m,Imports of water,NA,Imports of water,Volume
+2.6.2.n,2,Environmental Resources and their Use,2.6,Water Resources,2.6.2,"Abstraction, use and returns of water",n,Returns of water,NA,Returns of water,Volume
+3.1.1.a.1,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",1,Carbon dioxide (CO2),Mass
+3.1.1.a.2,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",2,Methane (CH4),Mass
+3.1.1.a.3,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",3,Nitrous oxide (N2O),Mass
+3.1.1.a.4,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",4,Perfluorocarbons (PFCs),Mass
+3.1.1.a.5,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",5,Hydrofluorocarbons (HFCs),Mass
+3.1.1.a.6,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,a,"Total emissions of direct greenhouse gases (GHGs), by gas:",6,Sulphur hexafluoride (SF6),Mass
+3.1.1.b.1,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,b,"Total emissions of indirect greenhouse gases (GHGs), by gas:",1,Sulphur dioxide (SO2),Mass
+3.1.1.b.2,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,b,"Total emissions of indirect greenhouse gases (GHGs), by gas:",2,Nitrogen oxides (NOx),Mass
+3.1.1.b.3,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,b,"Total emissions of indirect greenhouse gases (GHGs), by gas:",3,Non-methane volatile organic compounds (NM-VOCs),Mass
+3.1.1.b.4,3,Residuals,3.1,Emissions to Air,3.1.1,Emissions of greenhouse gases,b,"Total emissions of indirect greenhouse gases (GHGs), by gas:",4,Other,Mass
+3.1.2.a.1,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",1,Chlorofluorocarbons (CFCs),Mass
+3.1.2.a.2,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",2,Hydrochlorofluorocarbons (HCFCs),Mass
+3.1.2.a.3,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",3,Halons,Mass
+3.1.2.a.4,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",4,Methyl chloroform,Mass
+3.1.2.a.5,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",5,Carbon tetrachloride,Mass
+3.1.2.a.6,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",6,Methyl bromide,Mass
+3.1.2.a.7,3,Residuals,3.1,Emissions to Air,3.1.2,Consumption of ozone depleting substances,a,"Consumption of ozone depleting substances (ODSs), by substance:",7,Other,Mass
+3.1.3.a.1,3,Residuals,3.1,Emissions to Air,3.1.3,Emissions of other substances,a,Emissions of other substances:,1,Particulate matter (PM),Mass
+3.1.3.a.2,3,Residuals,3.1,Emissions to Air,3.1.3,Emissions of other substances,a,Emissions of other substances:,2,Heavy metals,Mass
+3.1.3.a.3,3,Residuals,3.1,Emissions to Air,3.1.3,Emissions of other substances,a,Emissions of other substances:,3,Other,Mass
+3.2.1.a,3,Residuals,3.2,Generation and Management of Wastewater,3.2.1,Generation and pollutant content of wastewater,a,Volume of wastewater generated,NA,Volume of wastewater generated,Volume
+3.2.1.b,3,Residuals,3.2,Generation and Management of Wastewater,3.2.1,Generation and pollutant content of wastewater,b,Pollutant content of wastewater,NA,Pollutant content of wastewater,Mass
+3.2.2.a,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,a,Volume of wastewater collected,NA,Volume of wastewater collected,Volume
+3.2.2.b,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,b,Volume of wastewater treated,NA,Volume of wastewater treated,Volume
+3.2.2.c.1,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,c,Total urban wastewater treatment capacity,1,Number of plants,Number
+3.2.2.c.2,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,c,Total urban wastewater treatment capacity,2,Capacity of plants,Volume
+3.2.2.d.1,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,d,Total industrial wastewater treatment capacity,1,Number of plants,Number
+3.2.2.d.2,3,Residuals,3.2,Generation and Management of Wastewater,3.2.2,Collection and treatment of wastewater,d,Total industrial wastewater treatment capacity,2,Capacity of plants,Volume
+3.2.3.a.1,3,Residuals,3.2,Generation and Management of Wastewater,3.2.3,Discharge of wastewater to the environment,a,Wastewater discharge,1,Total volume of wastewater discharged to the environment after treatment,Volume
+3.2.3.a.2,3,Residuals,3.2,Generation and Management of Wastewater,3.2.3,Discharge of wastewater to the environment,a,Wastewater discharge,2,Total volume of wastewater discharged to the environment without treatment,Volume
+3.2.3.b,3,Residuals,3.2,Generation and Management of Wastewater,3.2.3,Discharge of wastewater to the environment,b,Pollutant content of discharged wastewater,NA,Pollutant content of discharged wastewater,Mass
+3.3.1.a,3,Residuals,3.3,Generation and Management of Waste,3.3.1,Generation of waste,a,Amount of waste generated by source ,NA,Amount of waste generated by source ,Mass
+3.3.1.b,3,Residuals,3.3,Generation and Management of Waste,3.3.1,Generation of waste,b,Amount of waste generated by waste category,NA,Amount of waste generated by waste category,Mass
+3.3.1.c,3,Residuals,3.3,Generation and Management of Waste,3.3.1,Generation of waste,c,Amount of hazardous waste generated,NA,Amount of hazardous waste generated,Mass
+3.3.2.a.1,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,a,Municipal waste,1,Total municipal waste collected,Mass
+3.3.2.a.2,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,a,Municipal waste,2,Amount of municipal waste treated by type of treatment and disposal,Mass
+3.3.2.a.3,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,a,Municipal waste,3,Number of municipal waste treatment and disposal facilities,Number
+3.3.2.a.4,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,a,Municipal waste,4,Capacity of municipal waste treatment and disposal facilities,Volume
+3.3.2.b.1,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,b,Hazardous waste,1,Total hazardous waste collected,Mass
+3.3.2.b.2,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,b,Hazardous waste,2,Amount of hazardous waste treated by type of treatment and disposal,Mass
+3.3.2.b.3,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,b,Hazardous waste,3,Number of hazardous waste treatment and disposal facilities,Number
+3.3.2.b.4,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,b,Hazardous waste,4,Capacity of hazardous waste treatment and disposal facilities,Volume
+3.3.2.c.1,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,c,Other/industrial waste,1,Total other/industrial waste collected,Mass
+3.3.2.c.2,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,c,Other/industrial waste,2,Amount of other/industrial waste treated by type of treatment and disposal,Mass
+3.3.2.c.3,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,c,Other/industrial waste,3,Number of other/industrial treatment and disposal facilities,Number
+3.3.2.c.4,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,c,Other/industrial waste,4,Capacity of other/industrial waste treatment and disposal facilities,Volume
+3.3.2.d,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,d,Amount of recycled waste,NA,Amount of recycled waste,Mass
+3.3.2.e,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,e,Imports of waste,NA,Imports of waste,Mass
+3.3.2.f,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,f,Exports of waste,NA,Exports of waste,Mass
+3.3.2.g,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,g,Imports of hazardous waste,NA,Imports of hazardous waste,Mass
+3.3.2.h,3,Residuals,3.3,Generation and Management of Waste,3.3.2,Management of waste,h,Exports of hazardous waste,NA,Exports of hazardous waste,Mass
+3.4.1.a.1,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,a,Total amount of fertilizers used,1,Natural fertilizers (also in 2.5.1.b and 2.5.3.b),"Area, Mass, Volume"
+3.4.1.a.2,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,a,Total amount of fertilizers used,2,Chemical fertilizers (also in 2.5.1.b and 2.5.3.b),"Area, Mass, Volume"
+3.4.1.b,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,b,Total amount of pesticides used (also in 2.5.1.b and 2.5.3.b),NA,Total amount of pesticides used (also in 2.5.1.b and 2.5.3.b),"Area, Mass, Volume"
+3.4.1.c,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,c,Total amount of pellets used (also in 2.5.2.e),NA,Total amount of pellets used (also in 2.5.2.e),"Mass, Volume"
+3.4.1.d,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,d,Total amount of hormones used (also in 2.5.2.e and 2.5.4.b),NA,Total amount of hormones used (also in 2.5.2.e and 2.5.4.b),"Mass, Volume"
+3.4.1.e,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,e,Total amount of colourants used (also in 2.5.2.e),NA,Total amount of colourants used (also in 2.5.2.e),"Mass, Volume"
+3.4.1.f,3,Residuals,3.4,Release of Chemical Substances,3.4.1,Release of chemical substances,f,Total amount of antibiotics used (also in 2.5.2.e and 2.5.4.b),NA,Total amount of antibiotics used (also in 2.5.2.e and 2.5.4.b),"Mass, Volume"
+4.1.1.a.1,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.1,Occurrence of natural extreme events and disasters,a,Occurrence of natural extreme events and disasters:,1,"Type of natural extreme event and disaster (geophysical, meteorological, hydrological, climatological, biological)",Description
+4.1.1.a.2,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.1,Occurrence of natural extreme events and disasters,a,Occurrence of natural extreme events and disasters:,2,Location,Location
+4.1.1.a.3,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.1,Occurrence of natural extreme events and disasters,a,Occurrence of natural extreme events and disasters:,3,Magnitude (where applicable),Intensity
+4.1.1.a.4,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.1,Occurrence of natural extreme events and disasters,a,Occurrence of natural extreme events and disasters:,4,Date of occurrence,Date
+4.1.1.a.5,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.1,Occurrence of natural extreme events and disasters,a,Occurrence of natural extreme events and disasters:,5,Duration,Time Period
+4.1.2.a.1,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,a,People affected by natural extreme events and disasters,1,Number of people killed,Number
+4.1.2.a.2,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,a,People affected by natural extreme events and disasters,2,Number of people injured,Number
+4.1.2.a.3,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,a,People affected by natural extreme events and disasters,3,Number of people homeless,Number
+4.1.2.a.4,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,a,People affected by natural extreme events and disasters,4,Number of people affected,Number
+4.1.2.b,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,b,"Economic losses due to natural extreme events and disasters (e.g., damage to buildings, transportation networks, loss of revenue for businesses, utility disruption)",NA,"Economic losses due to natural extreme events and disasters (e.g., damage to buildings, transportation networks, loss of revenue for businesses, utility disruption)",Currency
+4.1.2.c,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,c,"Physical losses/damages due to natural extreme events and disasters (e.g., area and amount of crops, livestock, aquaculture, biomass)",NA,"Physical losses/damages due to natural extreme events and disasters (e.g., area and amount of crops, livestock, aquaculture, biomass)","Area, Description, Number"
+4.1.2.d.1,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,d,Effects of natural extreme events and disasters on integrity of ecosystems,1,Area affected by natural disasters,Area
+4.1.2.d.2,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,d,Effects of natural extreme events and disasters on integrity of ecosystems,2,Loss of vegetation cover,Area
+4.1.2.d.3,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,d,Effects of natural extreme events and disasters on integrity of ecosystems,3,Area of watershed affected,Area
+4.1.2.d.4,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,d,Effects of natural extreme events and disasters on integrity of ecosystems,4,Other,Description
+4.1.2.e,4,Extreme Events and Disasters,4.1,Natural Extreme Events and Disasters,4.1.2,Impact of natural extreme events and disasters,e,External assistance received,NA,External assistance received,Currency
+4.2.1.a.1,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.1,Occurrence of technological disasters,a,Occurrence of technological disasters:,1,"Type of technological disaster (industrial, transportation, miscellaneous)",Description
+4.2.1.a.2,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.1,Occurrence of technological disasters,a,Occurrence of technological disasters:,2,Location,Location
+4.2.1.a.3,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.1,Occurrence of technological disasters,a,Occurrence of technological disasters:,3,Date of occurrence,Date
+4.2.1.a.4,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.1,Occurrence of technological disasters,a,Occurrence of technological disasters:,4,Duration,Time Period
+4.2.2.a.1,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,a,People affected by technological disasters,1,Number of people killed,Number
+4.2.2.a.2,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,a,People affected by technological disasters,2,Number of people injured,Number
+4.2.2.a.3,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,a,People affected by technological disasters,3,Number of people homeless,Number
+4.2.2.a.4,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,a,People affected by technological disasters,4,Number of people affected,Number
+4.2.2.b,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,b,"Economic losses due to technological disasters (e.g., damage to buildings, transportation networks, loss of revenue for businesses, utility disruption)",NA,"Economic losses due to technological disasters (e.g., damage to buildings, transportation networks, loss of revenue for businesses, utility disruption)",Currency
+4.2.2.c,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,c,"Physical losses/damages due to technological disasters (e.g., area and amount of crops, livestock, aquaculture, biomass)",NA,"Physical losses/damages due to technological disasters (e.g., area and amount of crops, livestock, aquaculture, biomass)","Area, Description, Number"
+4.2.2.d.1,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,d,Effects of technological disasters on integrity of ecosystems,1,Area affected by technological disasters,Area
+4.2.2.d.2,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,d,Effects of technological disasters on integrity of ecosystems,2,Loss of vegetation cover,Area
+4.2.2.d.3,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,d,Effects of technological disasters on integrity of ecosystems,3,Area of watershed affected,Area
+4.2.2.d.4,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,d,Effects of technological disasters on integrity of ecosystems,4,"Other (e.g., for oil spills: volume of oil released into the environment, impact on ecosystem)",Description
+4.2.2.e,4,Extreme Events and Disasters,4.2,Technological Disasters,4.2.2,Impact of technological disasters,e,External assistance received,NA,External assistance received,Currency
+5.1.1.a,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.1,Urban and rural population,a,Population living in urban areas,NA,Population living in urban areas,Number
+5.1.1.b,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.1,Urban and rural population,b,Population living in rural areas,NA,Population living in rural areas,Number
+5.1.1.c,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.1,Urban and rural population,c,Total urban area,NA,Total urban area,Area
+5.1.1.d,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.1,Urban and rural population,d,Total rural area,NA,Total rural area,Area
+5.1.1.e,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.1,Urban and rural population,e,Population living in coastal areas,NA,Population living in coastal areas,Number
+5.1.2.a,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,a,Population using an improved drinking water source,NA,Population using an improved drinking water source,Number
+5.1.2.b,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,b,Population using an improved sanitation facility,NA,Population using an improved sanitation facility,Number
+5.1.2.c,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,c,Population served by municipal waste collection,NA,Population served by municipal waste collection,Number
+5.1.2.d,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,d,Population connected to wastewater collecting system,NA,Population connected to wastewater collecting system,Number
+5.1.2.e,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,e,Population connected to wastewater treatment,NA,Population connected to wastewater treatment,Number
+5.1.2.f,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,f,Population supplied by water supply industry,NA,Population supplied by water supply industry,Number
+5.1.2.g,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,g,Price of water,NA,Price of water,Currency
+5.1.2.h,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,h,Population with access to electricity,NA,Population with access to electricity,Number
+5.1.2.i,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.2,Access to selected basic services,i,Price of electricity,NA,Price of electricity,Currency
+5.1.3.a,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,a,Urban population living in slums,NA,Urban population living in slums,Number
+5.1.3.b,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,b,Area of slums,NA,Area of slums,Area
+5.1.3.c,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,c,Population living in hazard-prone areas,NA,Population living in hazard-prone areas,Number
+5.1.3.d,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,d,Hazard prone-areas,NA,Hazard prone-areas,Area
+5.1.3.e,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,e,Population living in informal settlements,NA,Population living in informal settlements,Number
+5.1.3.f,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,f,Homeless population,NA,Homeless population,Number
+5.1.3.g,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.3,Housing conditions,g,Number of dwellings with adequacy of building materials defined by national or local standards,NA,Number of dwellings with adequacy of building materials defined by national or local standards,Number
+5.1.4.a,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.4,Exposure to ambient pollution,a,Population exposed to air pollution in main cities,NA,Population exposed to air pollution in main cities,Number
+5.1.4.b,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.4,Exposure to ambient pollution,b,Population exposed to noise pollution in main cities,NA,Population exposed to noise pollution in main cities,Number
+5.1.5.a,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,a,Extent of urban sprawl,NA,Extent of urban sprawl,Area
+5.1.5.b,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,b,Available green spaces,NA,Available green spaces,Area
+5.1.5.c,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,c,Number of private and public vehicles,NA,Number of private and public vehicles,Number
+5.1.5.d,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,d,Population using public modes of transportation,NA,Population using public modes of transportation,Number
+5.1.5.e,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,e,Population using hybrid and electric modes of transportation,NA,Population using hybrid and electric modes of transportation,Number
+5.1.5.f,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,f,Extent of roadways,NA,Extent of roadways,Length
+5.1.5.g,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,g,Existence of urban planning and zoning regulations and instruments in main cities,NA,Existence of urban planning and zoning regulations and instruments in main cities,Description
+5.1.5.h,5,Human Settlements and Environmental Health,5.1,Human Settlements,5.1.5,Environmental concerns specific to urban settlements,h,Effectiveness of urban planning and zoning regulations and instruments in main cities,NA,Effectiveness of urban planning and zoning regulations and instruments in main cities,Description
+5.2.1.a.1,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.1,Airborne diseases and conditions,a,Airborne diseases and conditions,1,Incidence,Number
+5.2.1.a.2,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.1,Airborne diseases and conditions,a,Airborne diseases and conditions,2,Prevalence,Number
+5.2.1.a.3,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.1,Airborne diseases and conditions,a,Airborne diseases and conditions,3,Mortality,Number
+5.2.1.a.4,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.1,Airborne diseases and conditions,a,Airborne diseases and conditions,4,Loss of work days,Number
+5.2.1.a.5,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.1,Airborne diseases and conditions,a,Airborne diseases and conditions,5,Estimates of economic cost in monetary terms,Currency
+5.2.2.a.1,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.2,Water-related diseases and conditions,a,Water-related diseases and conditions,1,Incidence,Number
+5.2.2.a.2,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.2,Water-related diseases and conditions,a,Water-related diseases and conditions,2,Prevalence,Number
+5.2.2.a.3,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.2,Water-related diseases and conditions,a,Water-related diseases and conditions,3,Mortality,Number
+5.2.2.a.4,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.2,Water-related diseases and conditions,a,Water-related diseases and conditions,4,Loss of work days,Number
+5.2.2.a.5,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.2,Water-related diseases and conditions,a,Water-related diseases and conditions,5,Estimates of economic cost in monetary terms,Currency
+5.2.3.a.1,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.3,Vector-borne diseases,a,Vector-borne diseases,1,Incidence,Number
+5.2.3.a.2,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.3,Vector-borne diseases,a,Vector-borne diseases,2,Prevalence,Number
+5.2.3.a.3,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.3,Vector-borne diseases,a,Vector-borne diseases,3,Mortality,Number
+5.2.3.a.4,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.3,Vector-borne diseases,a,Vector-borne diseases,4,Loss of work days,Number
+5.2.3.a.5,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.3,Vector-borne diseases,a,Vector-borne diseases,5,Estimates of economic cost in monetary terms,Currency
+5.2.4.a.1,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.4,Health problems associated with excessive UV radiation exposure,a,Problems associated with excessive UV radiation exposure,1,Incidence,Number
+5.2.4.a.2,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.4,Health problems associated with excessive UV radiation exposure,a,Problems associated with excessive UV radiation exposure,2,Prevalence,Number
+5.2.4.a.3,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.4,Health problems associated with excessive UV radiation exposure,a,Problems associated with excessive UV radiation exposure,3,Loss of work days,Number
+5.2.4.a.4,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.4,Health problems associated with excessive UV radiation exposure,a,Problems associated with excessive UV radiation exposure,4,Estimates of economic cost in monetary terms,Currency
+5.2.5.a.1,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.5,Toxic substance- and nuclear radiation-related diseases and conditions,a,Toxic substance- and nuclear radiation-related diseases and conditions,1,Incidence,Number
+5.2.5.a.2,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.5,Toxic substance- and nuclear radiation-related diseases and conditions,a,Toxic substance- and nuclear radiation-related diseases and conditions,2,Prevalence,Number
+5.2.5.a.3,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.5,Toxic substance- and nuclear radiation-related diseases and conditions,a,Toxic substance- and nuclear radiation-related diseases and conditions,3,Loss of work days,Number
+5.2.5.a.4,5,Human Settlements and Environmental Health,5.2,Environmental Health,5.2.5,Toxic substance- and nuclear radiation-related diseases and conditions,a,Toxic substance- and nuclear radiation-related diseases and conditions,4,Estimates of economic cost in monetary terms,Currency
+6.1.1.a.1,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.1,Government environmental protection and resource management expenditure,a,Government environmental protection and resource management expenditure,1,Annual government environmental protection expenditure,Currency
+6.1.1.a.2,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.1,Government environmental protection and resource management expenditure,a,Government environmental protection and resource management expenditure,2,Annual government resource management expenditure,Currency
+6.1.2.a.1,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,1,Annual corporate environmental protection expenditure,Currency
+6.1.2.a.2,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,2,Annual corporate resource management expenditure,Currency
+6.1.2.a.3,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,3,Annual non-profit institution environmental protection expenditure,Currency
+6.1.2.a.4,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,4,Annual non-profit institution resource management expenditure,Currency
+6.1.2.a.5,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,5,Annual household environmental protection expenditure,Currency
+6.1.2.a.6,6,"Environmental Protection, Management and Engagement",6.1,Environmental protection and resource management expenditure,6.1.2,"Corporate, non-profit institution and household environmental protection and resource management expenditure",a,Private sector environmental protection and resource management expenditure,6,Annual household resource management expenditure,Currency
+6.2.1.a.1,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,1,Name of main environmental authority and year of establishment,Description
+6.2.1.a.2,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,2,Annual budget of the main environmental authority,Currency
+6.2.1.a.3,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,3,Number of staff in the main environmental authority,Number
+6.2.1.a.4,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,4,List of environmental departments in other authorities and year of establishment,Description
+6.2.1.a.5,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,5,Annual budget of environmental departments in other authorities,Currency
+6.2.1.a.6,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,a,Environmental institutions and their resources,6,Number of staff of environmental departments in other authorities,Number
+6.2.1.b.1,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,b,Other institutions and their resources,1,Name of institution and year of establishment,Description
+6.2.1.b.2,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,b,Other institutions and their resources,2,Annual budget of the institution,Currency
+6.2.1.b.3,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.1,Institutional strength,b,Other institutions and their resources,3,Number of staff in the institution,Number
+6.2.2.a.1,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,a,Direct regulation,1,"List of regulated pollutants and description (e.g., by year of adoption and maximum allowable levels)","Description, Number"
+6.2.2.a.2,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,a,Direct regulation,2,"Description (e.g., name, year established) of licensing system to ensure compliance with environmental standards for businesses or other new facilities",Description
+6.2.2.a.3,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,a,Direct regulation,3,Number of applications for licences received and approved per year,Number
+6.2.2.a.4,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,a,Direct regulation,4,List of quotas for biological resource extraction,Number
+6.2.2.a.5,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,a,Direct regulation,5,Budget and number of staff dedicated to enforcement of environmental regulations,"Currency, Number"
+6.2.2.b.1,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,b,Economic instruments,1,"List and description (e.g., year of establishment) of green/environmental taxes","Description, Currency"
+6.2.2.b.2,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,b,Economic instruments,2,"List and description (e.g., year of establishment) of environmentally relevant subsidies","Description, Currency"
+6.2.2.b.3,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,b,Economic instruments,3,List of eco-labelling and environmental certification programmes,Description
+6.2.2.b.4,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.2,Environmental regulation and instruments,b,Economic instruments,4,Emission permits traded,"Number, Currency"
+6.2.3.a.1,6,"Environmental Protection, Management and Engagement",6.2,Environmental Governance and Regulation,6.2.3,Participation in MEAs and environmental conventions,a,Participation in MEAs and other global environmental conventions,1,"List and description (e.g., country's year of participation(d)) of MEAs and other global environmental conventions","Description, Number"
+6.3.1.a.1,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,1,Existence of national disaster plans/programmes,Description
+6.3.1.a.2,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,2,"Description (e.g., number of staff) of national disaster plans/programmes",Description
+6.3.1.a.3,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,3,Number and type of shelters in place or able to be deployed,"Description, Number"
+6.3.1.a.4,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,4,Number and type of internationally certified emergency and recovery management specialists,"Description, Number"
+6.3.1.a.5,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,5,Number of volunteers,Number
+6.3.1.a.6,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,6,"Quantity of first aid, emergency supplies and equipment stockpiles",Number
+6.3.1.a.7,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,7,Existence of early warning systems for all major hazards,Description
+6.3.1.a.8,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.1,Preparedness for natural extreme events and disasters,a,National natural extreme event and disaster preparedness and management systems,8,"Expenditure on disaster prevention, preparedness, clean-up and rehabilitation",Currency
+6.3.2.a.1,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.2,Preparedness for technological disasters,a,National technological disaster preparedness and management systems,1,"Existence and description (e.g., number of staff) of public disaster management plans/programmes (and private when available)",Description
+6.3.2.a.2,6,"Environmental Protection, Management and Engagement",6.3,Extreme Event Preparedness and Disaster Management,6.3.2,Preparedness for technological disasters,a,National technological disaster preparedness and management systems,2,"Expenditure on disaster prevention, preparedness, clean-up and rehabilitation",Currency
+6.4.1.a.1,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.1,Environmental Information,a,Environmental information systems,1,Existence of publicly accessible environmental information system,Description
+6.4.1.a.2,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.1,Environmental Information,a,Environmental information systems,2,Annual number of visits/users of specific environmental information programmes or environmental information systems,Number
+6.4.1.b.1,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.1,Environmental Information,b,Environment statistics,1,"Description of national environment statistics programmes (e.g., existence, year of establishment, lead agency, human and financial resources)",Description
+6.4.1.b.2,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.1,Environmental Information,b,Environment statistics,2,Number and type of environment statistics products and periodicity of updates,"Description, Number"
+6.4.1.b.3,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.1,Environmental Information,b,Environment statistics,3,Existence and number of participant institutions in inter-agency environment statistics platforms or committees,Number
+6.4.2.a.1,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.2,Environmental Education,a,Environmental education,1,Allocation of resources by central and local authorities for environmental education,Currency
+6.4.2.a.2,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.2,Environmental Education,a,Environmental education,2,Number and description of environmental education programmes in schools,"Description, Number"
+6.4.2.a.3,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.2,Environmental Education,a,Environmental education,3,"Number of students pursuing environment-related higher education (e.g., science, management, education, engineering)",Number
+6.4.3.a.1,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.3,Environmental Perception and Awareness,a,Public environmental perception and awareness,1,Knowledge and attitudes about environmental issues or concerns,Description
+6.4.3.a.2,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.3,Environmental Perception and Awareness,a,Public environmental perception and awareness,2,Knowledge and attitudes about environmental policies,Description
+6.4.4.a.1,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.4,Environmental engagement,a,Environmental engagement,1,Existence of pro-environmental NGOs (number of NGOs and their respective human and financial resources),"Currency, number"
+6.4.4.a.2,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.4,Environmental engagement,a,Environmental engagement,2,Number of pro-environmental activities,Number
+6.4.4.a.3,6,"Environmental Protection, Management and Engagement",6.4,Environmental Information and Awareness,6.4.4,Environmental engagement,a,Environmental engagement,3,Number of pro-environmental programmes,Number
