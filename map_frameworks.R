@@ -147,7 +147,80 @@ glimpse(fdes)
 #write_csv(fdes, here("Frameworks/fdes_flat.csv"))
 
 # ------------------------------------------------------------------------------
-# Global Set: Read from CISAT (to be cleaned later)
+# Global Set: Read and clean from CISAT
 # ------------------------------------------------------------------------------
 
-gs <- read_excel(here("Frameworks/CISAT_Part_2.xlsx"), sheet = "Self assessment tool")
+clean_gs <- function(file_path) {
+
+  # Read raw data (no headers - we'll handle manually)
+  raw <- read_excel(file_path, sheet = "Self assessment tool", col_names = FALSE)
+
+  # Select and rename key columns, skip header rows (first 5 rows)
+  # Col 2 (B): Area (DRIVERS, IMPACTS, etc.)
+  # Col 3 (C): Topic
+  # Col 4 (D): Indicator number
+  # Col 5 (E): Indicator name
+  # Col 6 (F): Statistic
+  df <- raw %>%
+    select(area = 2, topic = 3, indicator_num = 4, indicator_name = 5, statistic = 6) %>%
+    slice(-(1:5))  # Remove header rows
+
+  # Filter out Area header values that aren't actual areas
+  valid_areas <- c("DRIVERS", "IMPACTS", "VULNERABILITY", "MITIGATION", "ADAPTATION")
+
+  # Forward-fill area and topic using tidyr::fill()
+  df <- df %>%
+    mutate(
+      area = if_else(area %in% valid_areas, area, NA_character_)
+    ) %>%
+    fill(area, .direction = "down")
+
+  # Forward-fill topic (but reset when area changes or new topic appears)
+  df <- df %>%
+    mutate(
+      # Detect topic rows (non-NA topic that isn't a number)
+      is_topic_row = !is.na(topic) & is.na(suppressWarnings(as.numeric(topic))),
+      topic = if_else(is_topic_row, topic, NA_character_)
+    ) %>%
+    fill(topic, .direction = "down") %>%
+    select(-is_topic_row)
+
+  # Forward-fill indicator info for rows that only have statistics
+  df <- df %>%
+    mutate(
+      # Convert indicator_num to character for consistency
+      indicator_num = as.character(indicator_num),
+      # Keep only numeric indicator numbers
+      indicator_num = if_else(str_detect(indicator_num, "^\\d+$"), indicator_num, NA_character_)
+    ) %>%
+    fill(indicator_num, indicator_name, .direction = "down")
+
+  # Keep only rows that have meaningful content (statistic or indicator name)
+  # Filter to rows where we have valid indicator info
+  df <- df %>%
+    filter(!is.na(indicator_num)) %>%
+    # Clean up: if statistic is NA or empty, use indicator name
+    mutate(
+      statistic = if_else(
+        is.na(statistic) | statistic == "" | statistic == "Equivalent to the indicator",
+        indicator_name,
+        statistic
+      )
+    ) %>%
+    # Remove duplicate rows (where statistic equals indicator and no additional info)
+    distinct()
+
+  # Create indicator ID
+  df <- df %>%
+    mutate(
+      indicator_id = paste0("GS.", indicator_num)
+    ) %>%
+    relocate(indicator_id)
+
+  df
+}
+
+gs <- clean_gs(here("Frameworks/CISAT_Part_2.xlsx"))
+
+# Preview the cleaned data
+glimpse(gs)
